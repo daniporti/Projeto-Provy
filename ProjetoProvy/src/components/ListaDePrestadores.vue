@@ -167,15 +167,15 @@ export default {
 
 .search .Pesquisar {
     padding: 8px;
-    border: 2px solid #3498db; /* Borda azul */
-    border-radius: 20px 0 0 20px; /* Bordas arredondadas */
+    border: 2px solid #3498db;
+    border-radius: 20px 0 0 20px; 
 }
 
 .search button {
     padding: 8px;
-    border: 2px solid #3498db; /* Borda azul */
+    border: 2px solid #3498db; 
     border-left: none;
-    border-radius: 0 20px 20px 0; /* Bordas arredondadas */
+    border-radius: 0 20px 20px 0;
     background-color: #3498db;
     color: white;
     cursor: pointer;
@@ -194,7 +194,7 @@ export default {
 .title-centralizada {
     text-align: center;
     color: #3498db;
-    margin: 20px 0; /* Espaçamento adicional */
+    margin: 20px 0;
 }
 
 .filter-buttons {
@@ -214,10 +214,10 @@ export default {
 .sexo-container button,
 .ordenar-container button {
     padding: 10px;
-    border: 2px solid lightgray; /* Cor da borda */
-    border-radius: 20px; /* Bordas arredondadas */
+    border: 2px solid lightgray; 
+    border-radius: 20px; 
     background-color: transparent;
-    color: lightgray; /* Cor do texto */
+    color: lightgray; 
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -225,8 +225,8 @@ export default {
 .profissoes-container button.active,
 .sexo-container button.active,
 .ordenar-container button.active {
-    background-color: #3498db; /* Azul ao selecionar */
-    color: white; /* Texto branco */
+    background-color: #3498db;
+    color: white; 
 }
 
 .profissoes-dropdown,
@@ -236,8 +236,8 @@ export default {
     top: 40px;
     left: 0;
     background: white;
-    border: 2px solid #3498db; /* Borda azul */
-    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #3498db; 
+    border-radius: 8px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
@@ -251,8 +251,8 @@ export default {
     text-align: left;
     border: none;
     background: none;
-    border-radius: 20px; /* Bordas arredondadas */
-    color: #3498db; /* Cor do texto */
+    border-radius: 20px; 
+    color: #3498db;
     cursor: pointer;
 }
 
